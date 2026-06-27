@@ -1,0 +1,35 @@
+{
+  "name": "ghl-scheduling-plugin",
+  "version": "1.0.0",
+  "description": "Smart Round Robin booking calendar for GoHighLevel",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js",
+    "build": "echo 'Add React widget build here in Phase 3'",
+    "test": "echo 'Add tests when ready'"
+  },
+  "keywords": [
+    "ghl",
+    "scheduling",
+    "round-robin",
+    "appointments",
+    "booking"
+  ],
+  "author": "Maximus Digital Marketing",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  }
+}
